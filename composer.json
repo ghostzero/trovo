@@ -1,0 +1,32 @@
+{
+  "name": "ghostzero/trovo",
+  "description": "PHP Trovo Messaging Interface",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "René Preuß",
+      "email": "rene@preuss.io"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "GhostZero\\Trovo\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7.4|^8.0",
+    "ext-json": "*",
+    "ratchet/pawl": "^0.3.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.3.3"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
